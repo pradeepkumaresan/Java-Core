@@ -1,11 +1,12 @@
-package com.pradeep.java8.collections;
+package com.pradeep.java8.collections.list;
 
 import com.pradeep.java8.common.ListUtils;
 import com.pradeep.java8.common.Person;
 
+import java.util.Comparator;
 import java.util.List;
 
-public class RemoveIfExample {
+public class SortExample {
     public static void main(String[] args) {
         List<Person> list = ListUtils.getPersonList();
 
@@ -13,8 +14,9 @@ public class RemoveIfExample {
 
         System.out.println();
 
-        // takes a predicate
-        list.removeIf(person -> person.getAge() < 28);
+        // takes a unary operator
+        list.sort(Comparator.comparing(Person::getFirstName)
+                            .thenComparing(Person::getAge));
 
         ListUtils.printPersonList(list);
     }

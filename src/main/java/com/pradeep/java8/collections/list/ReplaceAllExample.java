@@ -1,4 +1,4 @@
-package com.pradeep.java8.collections;
+package com.pradeep.java8.collections.list;
 
 import com.pradeep.java8.common.ListUtils;
 import com.pradeep.java8.common.Person;
