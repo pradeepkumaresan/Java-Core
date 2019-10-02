@@ -10,9 +10,9 @@ import static com.pradeep.java8.common.MapUtils.printMap;
 
 /**
  * Constraints for execution -
- * compute() - always executes. key present or absent. value present or absent.
- * computeIfPresent() - key's value present and not null.
- * computeIfAbsent() - key is not already associated with a value or is mapped to null.
+ * compute() - always executes. key present OR absent OR value present or absent.
+ * computeIfPresent() - key present AND (value present and not null)
+ * computeIfAbsent() - key absent OR (key present and value null)
  */
 public class ComputeAll {
     public static void main(String[] args) {
