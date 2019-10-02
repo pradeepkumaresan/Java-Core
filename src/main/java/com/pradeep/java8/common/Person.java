@@ -1,4 +1,4 @@
-package com.pradeep.java8.comparator;
+package com.pradeep.java8.common;
 
 public class Person {
     private String firstName;

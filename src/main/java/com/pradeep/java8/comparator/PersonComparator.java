@@ -1,5 +1,7 @@
 package com.pradeep.java8.comparator;
 
+import com.pradeep.java8.common.Person;
+
 import java.util.Comparator;
 import java.util.function.Function;
 
