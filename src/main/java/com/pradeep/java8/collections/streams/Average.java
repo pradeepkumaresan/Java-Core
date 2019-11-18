@@ -1,4 +1,4 @@
-package com.pradeep.java8.collections.mapFilterReduce;
+package com.pradeep.java8.collections.streams;
 
 import com.pradeep.java8.common.MapUtils;
 import com.pradeep.java8.common.Person;
