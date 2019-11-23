@@ -1,4 +1,4 @@
-package com.pradeep.general;
+package com.pradeep.hackkerrank;
 
 /**
  * There are two strings X and Y of equal length, made up of lower case letters and the character '?'.
