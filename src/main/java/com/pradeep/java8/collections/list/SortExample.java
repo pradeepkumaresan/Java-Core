@@ -1,7 +1,7 @@
 package com.pradeep.java8.collections.list;
 
-import com.pradeep.java8.common.ListUtils;
-import com.pradeep.java8.common.Person;
+import com.pradeep.java8.streams.ListUtils;
+import com.pradeep.java8.util.Person;
 
 import java.util.Comparator;
 import java.util.List;

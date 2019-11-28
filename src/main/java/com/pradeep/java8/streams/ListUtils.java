@@ -1,4 +1,6 @@
-package com.pradeep.java8.common;
+package com.pradeep.java8.streams;
+
+import com.pradeep.java8.util.Person;
 
 import java.util.ArrayList;
 import java.util.List;

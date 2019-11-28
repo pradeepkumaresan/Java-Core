@@ -1,4 +1,4 @@
-package com.pradeep.java8.common;
+package com.pradeep.java8.util;
 
 import java.util.Objects;
 

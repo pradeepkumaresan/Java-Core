@@ -1,6 +1,6 @@
 package com.pradeep.java8.comparator;
 
-import com.pradeep.java8.common.Person;
+import com.pradeep.java8.util.Person;
 
 import java.util.Comparator;
 import java.util.function.Function;

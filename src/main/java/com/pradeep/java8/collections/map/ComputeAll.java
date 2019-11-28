@@ -1,12 +1,7 @@
 package com.pradeep.java8.collections.map;
 
-import com.pradeep.java8.common.Person;
-
 import java.util.HashMap;
 import java.util.Map;
-
-import static com.pradeep.java8.common.MapUtils.getMap;
-import static com.pradeep.java8.common.MapUtils.printMap;
 
 /**
  * Constraints for execution -

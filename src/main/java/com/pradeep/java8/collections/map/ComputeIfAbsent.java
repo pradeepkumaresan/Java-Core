@@ -1,6 +1,6 @@
 package com.pradeep.java8.collections.map;
 
-import com.pradeep.java8.common.Person;
+import com.pradeep.java8.util.Person;
 
 import java.util.HashMap;
 import java.util.Map;
