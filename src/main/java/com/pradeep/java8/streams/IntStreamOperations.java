@@ -22,6 +22,7 @@ public class IntStreamOperations
       System.out.printf("Max: %d%n", 
          IntStream.of(values).max().getAsInt());
       System.out.printf("Sum: %d%n", IntStream.of(values).sum());
+      System.out.printf("Sum thru Arrays.stream(): %d%n", Arrays.stream(values).sum());
       System.out.printf("Average: %.2f%n", 
          IntStream.of(values).average().getAsDouble());
 
