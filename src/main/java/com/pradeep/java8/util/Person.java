@@ -1,35 +1,28 @@
 package com.pradeep.java8.util;
 
-import java.util.Objects;
-
+/**
+ *
+ * @author José Paumard
+ */
 public class Person {
-    private String firstName;
-    private String lastName;
+
+    private String name;
     private int age;
 
     public Person() {
     }
 
-    public Person(String firstName, String lastName, int age) {
-        this.firstName = firstName;
-        this.lastName = lastName;
+    public Person(String name, int age) {
+        this.name = name;
         this.age = age;
     }
 
-    public String getFirstName() {
-        return firstName;
+    public String getName() {
+        return name;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public int getAge() {
@@ -42,25 +35,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", age=" + age +
-                '}';
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Person)) return false;
-        Person person = (Person) o;
-        return getAge() == person.getAge() &&
-                Objects.equals(getFirstName(), person.getFirstName()) &&
-                Objects.equals(getLastName(), person.getLastName());
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(getFirstName(), getLastName(), getAge());
+        return "Person{" + "name=" + name + ", age=" + age + '}';
     }
 }

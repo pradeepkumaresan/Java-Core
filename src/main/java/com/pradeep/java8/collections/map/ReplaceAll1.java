@@ -1,6 +1,6 @@
 package com.pradeep.java8.collections.map;
 
-import com.pradeep.java8.util.Person;
+import com.pradeep.java8.util.Persons;
 
 import java.util.Map;
 
@@ -9,7 +9,7 @@ import static com.pradeep.java8.collections.map.MapUtils.printMap;
 
 public class ReplaceAll1 {
     public static void main(String[] args) {
-        Map<String, Person> map = getMap();
+        Map<String, Persons> map = getMap();
 
         printMap(map);
 

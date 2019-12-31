@@ -1,14 +1,14 @@
 package com.pradeep.java8.collections.map;
 
-import com.pradeep.java8.util.Person;
+import com.pradeep.java8.util.Persons;
 
 import java.util.List;
 import java.util.Map;
 
 public class Merge {
     public static void main(String[] args) {
-        Map<String, List<Person>> map1 = MapUtils.getMapOfListOfPersons();
-        Map<String, List<Person>> map2 = MapUtils.getMapOfListOfPersons();
+        Map<String, List<Persons>> map1 = MapUtils.getMapOfListOfPersons();
+        Map<String, List<Persons>> map2 = MapUtils.getMapOfListOfPersons();
 
         map2.forEach(
                 (key, value) ->

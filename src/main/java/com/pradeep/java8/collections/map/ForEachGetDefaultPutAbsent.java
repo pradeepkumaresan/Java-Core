@@ -1,6 +1,6 @@
 package com.pradeep.java8.collections.map;
 
-import com.pradeep.java8.util.Person;
+import com.pradeep.java8.util.Persons;
 
 import java.util.Map;
 
@@ -9,11 +9,11 @@ import static com.pradeep.java8.collections.map.MapUtils.printMap;
 
 public class ForEachGetDefaultPutAbsent {
     public static void main(String[] args) {
-        Map<String, Person> map = getMap();
+        Map<String, Persons> map = getMap();
         System.out.print("For each: \n");
         printMap(map);
 
-        Person natasha = new Person("Natasha", "Romanoff", 30);
+        Persons natasha = new Persons("Natasha", "Romanoff", 30);
         System.out.println("getting black widow when its not in map: " +
                 map.get("blackWidow"));
         System.out.println("get or default to a value: " +
