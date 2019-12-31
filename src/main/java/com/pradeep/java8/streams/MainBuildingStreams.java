@@ -26,12 +26,17 @@ public class MainBuildingStreams {
         stream.forEach(System.out::println);
      
         Stream<String> streamOfStrings = Stream.generate(() -> "one");
-        streamOfStrings.limit(5).forEach(System.out::println);
+        streamOfStrings.limit(5)
+                .forEach(System.out::println);
         
         Stream<String> streamOfStrings2 = Stream.iterate("+", s -> s + "+");
-        streamOfStrings2.limit(5).forEach(System.out::println);
+        streamOfStrings2.skip(2)
+                .limit(5)
+                .forEach(System.out::println);
         
         IntStream streamOfInt = ThreadLocalRandom.current().ints();
-        streamOfInt.limit(5).forEach(System.out::println);
+        streamOfInt
+                .limit(5)
+                .forEach(System.out::println);
     }
 }
